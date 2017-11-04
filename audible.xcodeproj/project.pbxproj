@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA3EBA8E1FAE6F770022640E /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3EBA8D1FAE6F770022640E /* UserDefaultsHelper.swift */; };
+		DA72DC841FAD66AA0007E506 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72DC831FAD66AA0007E506 /* LoginController.swift */; };
+		DA72DC861FAD67700007E506 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72DC851FAD67700007E506 /* MainNavigationController.swift */; };
+		DA72DC881FAE69C00007E506 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72DC871FAE69C00007E506 /* HomeController.swift */; };
 		DA7DAE7F1FACF0F40077323F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE7E1FACF0F40077323F /* AppDelegate.swift */; };
-		DA7DAE811FACF0F40077323F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE801FACF0F40077323F /* ViewController.swift */; };
 		DA7DAE841FACF0F40077323F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7DAE821FACF0F40077323F /* Main.storyboard */; };
 		DA7DAE871FACF0F40077323F /* audible.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE851FACF0F40077323F /* audible.xcdatamodeld */; };
 		DA7DAE891FACF0F40077323F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7DAE881FACF0F40077323F /* Assets.xcassets */; };
 		DA7DAE8C1FACF0F40077323F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7DAE8A1FACF0F40077323F /* LaunchScreen.storyboard */; };
+		DA7DAE941FACFC090077323F /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE931FACFC090077323F /* PageCell.swift */; };
+		DA7DAE961FACFDAB0077323F /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE951FACFDAB0077323F /* Extentions.swift */; };
+		DA7DAE981FAD046D0077323F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE971FAD046D0077323F /* Page.swift */; };
+		DA7DAE9A1FAD23C30077323F /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7DAE991FAD23C30077323F /* LoginCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA3EBA8D1FAE6F770022640E /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		DA72DC831FAD66AA0007E506 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DA72DC851FAD67700007E506 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		DA72DC871FAE69C00007E506 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		DA7DAE7B1FACF0F40077323F /* audible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7DAE7E1FACF0F40077323F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA7DAE801FACF0F40077323F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA7DAE831FACF0F40077323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA7DAE861FACF0F40077323F /* audible.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = audible.xcdatamodel; sourceTree = "<group>"; };
 		DA7DAE881FACF0F40077323F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA7DAE8B1FACF0F40077323F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA7DAE8D1FACF0F40077323F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA7DAE931FACFC090077323F /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		DA7DAE951FACFDAB0077323F /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		DA7DAE971FAD046D0077323F /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		DA7DAE991FAD23C30077323F /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA72DC891FAE69F20007E506 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA72DC871FAE69C00007E506 /* HomeController.swift */,
+				DA72DC851FAD67700007E506 /* MainNavigationController.swift */,
+				DA72DC831FAD66AA0007E506 /* LoginController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		DA72DC8A1FAE6A130007E506 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DAE991FAD23C30077323F /* LoginCell.swift */,
+				DA7DAE931FACFC090077323F /* PageCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		DA72DC8B1FAE6A240007E506 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DAE971FAD046D0077323F /* Page.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DA72DC8C1FAE6A3B0007E506 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DAE951FACFDAB0077323F /* Extentions.swift */,
+				DA3EBA8D1FAE6F770022640E /* UserDefaultsHelper.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
 		DA7DAE721FACF0F40077323F = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +107,15 @@
 			isa = PBXGroup;
 			children = (
 				DA7DAE7E1FACF0F40077323F /* AppDelegate.swift */,
-				DA7DAE801FACF0F40077323F /* ViewController.swift */,
 				DA7DAE821FACF0F40077323F /* Main.storyboard */,
 				DA7DAE881FACF0F40077323F /* Assets.xcassets */,
 				DA7DAE8A1FACF0F40077323F /* LaunchScreen.storyboard */,
 				DA7DAE8D1FACF0F40077323F /* Info.plist */,
 				DA7DAE851FACF0F40077323F /* audible.xcdatamodeld */,
+				DA72DC891FAE69F20007E506 /* controllers */,
+				DA72DC8A1FAE6A130007E506 /* views */,
+				DA72DC8B1FAE6A240007E506 /* models */,
+				DA72DC8C1FAE6A3B0007E506 /* helpers */,
 			);
 			path = audible;
 			sourceTree = "<group>";
@@ -139,9 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7DAE811FACF0F40077323F /* ViewController.swift in Sources */,
+				DA3EBA8E1FAE6F770022640E /* UserDefaultsHelper.swift in Sources */,
+				DA7DAE9A1FAD23C30077323F /* LoginCell.swift in Sources */,
 				DA7DAE7F1FACF0F40077323F /* AppDelegate.swift in Sources */,
+				DA72DC861FAD67700007E506 /* MainNavigationController.swift in Sources */,
+				DA7DAE981FAD046D0077323F /* Page.swift in Sources */,
+				DA7DAE961FACFDAB0077323F /* Extentions.swift in Sources */,
+				DA72DC881FAE69C00007E506 /* HomeController.swift in Sources */,
+				DA7DAE941FACFC090077323F /* PageCell.swift in Sources */,
 				DA7DAE871FACF0F40077323F /* audible.xcdatamodeld in Sources */,
+				DA72DC841FAD66AA0007E506 /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +344,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.podongchina.youtube.audible;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -299,7 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.podongchina.youtube.audible;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
